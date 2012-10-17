@@ -4,8 +4,8 @@ TextToPDFArchive
 Uses Haru PDF Library (libhpdf, libharu) to turn a text file into a PDF/A document.
 
 This is a Windows-only demo of Haru PDF (libhpdf)'s PDF/A creation. It is something that I created in passing during 
-a project that required generation of PDF/A documents and is by no means a complete program, but perhaps it will help
-those trying to create PDF/A documents under Windows using only open-source software.
+a project for Kellpro Inc that required generation of PDF/A documents and is by no means a complete program, but perhaps
+it will help those trying to create PDF/A documents under Windows using only open-source software.
 
 The VC10 directory contains project files that allow the program to be built using Visual Studio 2010. I have not
 tested it under the Express Edition, but I'm not aware of any reason that it wouldn't work. These project files 
