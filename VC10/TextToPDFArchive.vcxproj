@@ -54,7 +54,7 @@
       <ExceptionHandling>false</ExceptionHandling>
       <DisableLanguageExtensions>false</DisableLanguageExtensions>
       <CompileAs>CompileAsC</CompileAs>
-      <AdditionalIncludeDirectories>..\..\libhpdf\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\libhpdf\include;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
     <Link>
@@ -74,7 +74,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\..\libhpdf\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\libhpdf\include;.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
     <Link>
@@ -89,7 +89,6 @@
     <None Include="..\ISOcoated_v2_grey1c_bas.ICC">
       <FileType>Document</FileType>
     </None>
-    <None Include="..\ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\resource.h" />
@@ -108,13 +107,13 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="libhpdf.vcxproj">
-      <Project>{b14fd356-6a0e-aae4-3057-eed77048eae4}</Project>
+      <Project>{df8ee15b-c25e-96c3-7ddf-614da82a282b}</Project>
     </ProjectReference>
     <ProjectReference Include="libpng.vcxproj">
       <Project>{d6973076-9317-4ef2-a0b8-b7a18ac0713e}</Project>
     </ProjectReference>
     <ProjectReference Include="zlib.vcxproj">
-      <Project>{c8174a3e-ac02-ef40-03bb-0ebe4f6abad1}</Project>
+      <Project>{0ba3ff9c-5025-b5bb-9ec2-90cf1af8f119}</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

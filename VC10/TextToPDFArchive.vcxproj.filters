@@ -16,7 +16,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\ISOcoated_v2_grey1c_bas.ICC" />
-    <None Include="..\ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\resource.h">
