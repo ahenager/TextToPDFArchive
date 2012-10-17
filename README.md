@@ -14,8 +14,11 @@ zlib will need to be cloned to directories named after each respective project i
 TextToPdfArchive directory. In other words, your directory structure should look like this:
 
 zlib - cloned from https://github.com/madler/zlib.git
-libpng - cloned from https://github.com/madler/zlib.git
-libhpdf - cloned from https://github.com/madler/zlib.git
+
+libpng - cloned from https://github.com/LuaDist/libpng.git
+
+libhpdf - cloned from https://github.com/libharu/libharu.git
+
 TextToPDFArchive - cloned from https://github.com/ahenager/TextToPDFArchive.git
 
 The syntax for the generated TextToPDFArchive.exe is as follows:
