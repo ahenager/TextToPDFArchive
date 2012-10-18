@@ -131,7 +131,7 @@ int main (int argc, char **argv)
           length = strlen(text_line);
           text_line[length - 1] = '\0'; // Eat line feeds
 
-          if (lines > 115 || (int)text_line[0] == 12) // Encountered page feed characters
+          if (lines > 65 || (int)text_line[0] == 12) // Encountered page feed characters
           {
             text_line[0] = ' ';
             HPDF_Page_EndText(page);

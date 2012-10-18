@@ -24,6 +24,8 @@ TextToPDFArchive - cloned from https://github.com/ahenager/TextToPDFArchive.git
 The syntax for the generated TextToPDFArchive.exe is as follows:
 TextToPDFArchive in.txt out.pdf
 
+Thanks to Kellpro Inc for letting me publish this on company time.
+
 License
 =======
 Copyright (c) 2012 Alan Henager
