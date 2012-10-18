@@ -5,7 +5,8 @@ Uses Haru PDF Library (libhpdf, libharu) to turn a text file into a PDF/A docume
 
 This is a Windows-only demo of Haru PDF (libhpdf)'s PDF/A creation. It is something that I created as an experiment during 
 a project that required generation of PDF/A documents and is by no means a complete program, but perhaps
-it will help those trying to create PDF/A documents under Windows using only open-source software.
+it will help those trying to create PDF/A documents under Windows using only open-source software. The PDF generated
+by this program will pass PDF/A-1b validators.
 
 The VC10 directory contains project files that allow the program to be built using Visual Studio 2010. I have not
 tested it under the Express Edition, but I'm not aware of any reason that it wouldn't work. These project files 
@@ -30,7 +31,7 @@ License
 =======
 Copyright (c) 2012 Alan Henager
 
-Any person may use, distribute, sell, or modify this work with limitation.
+Any person may use, distribute, sell, or modify this work without limitation.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
